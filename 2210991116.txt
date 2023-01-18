@@ -1,0 +1,40 @@
+commands in gitbash( aargya sharma)
+1) pwd -> used to findn present working directory
+   syntax -> $ pwd
+2) git version -> it is used to find the current version of git that we are working with
+   syntax -> $ git version
+3) git status -> used to tell the status of all the files  created by us that which is tracked and which is untracked 
+    syntax -> $ git status 
+4) git config -> used to configure the email id of the user . global user followed by the email indouble quotations is inputted 
+    syntax -> $ git config global user.email "xyz@gmail.com"
+   now on entering the command  $ git config global user.email, the email entered previously will be shown
+   input -> $ git config global user.email
+   output ->  xyz@gmail.com
+5) git commit - used to take snapshots of created  files
+    syntax -> $ git  commit
+6) git init -> used to  create an empty git repository or reinitialize an existing one.
+   syntax -> $git init
+7)  touch -> used to create  a new file . The name of the file is followed afte rthe command here
+     syntax -> $ touch filename.txt
+8) vi -> used to edit file and add and remove data in it .
+    syntax -> $ vi filename.txt
+9) cat -> used to see data of a particular file in git bash prompt.
+    syntax-> $ cat filename.txt
+10) ls -> used to find address of file
+    syntax -> $ ls 
+11) mk dir -> used to make new directory.
+    syntax - $ mkdir directoryname
+12) cd -> this is used to start working with new directory.
+      syntax - $ cd directoryname
+13) cd.. -> used to switch to old working directory.
+      syntax - $ cd.. 
+14) ls-ah -> used to attribute headers
+    syntax - $ ls-ah 
+14) git add ->used to add a file contents on an index.
+      syntax -> $ git add filename.txt
+15)  history -> used to get history of all commands we have used in the gitbash promt .
+      syntax -> $ history
+16) git log - used to see the history of each committed change within  a git repository.
+      syntax - $ git log
+
+
